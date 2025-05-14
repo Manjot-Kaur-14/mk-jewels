@@ -6,7 +6,7 @@ function Home() {
 <header className="main-header">
     <div className="top-row">
       <div className="logo">
-        <img src="mk-jewels/images/tanishq-logo.png" alt="MK Jewels Logo" />
+        <img src="images/tanishq-logo.png" alt="MK Jewels Logo" />
       </div>
       <div className="search-bar">
         <input
@@ -30,43 +30,43 @@ function Home() {
     {/* <!-- Bottom Navigation --> */}
     <nav className="bottom-nav">
       <a href="index.html">
-        <img src="mk-jewels/images/jewellery.svg" alt="All Jewellery" />
+        <img src="images/jewellery.svg" alt="All Jewellery" />
         <span>All Jewellery</span>
       </a>
       <a href="gold.html">
-        <img src="mk-jewels/images/gold.svg" alt="Gold" />
+        <img src="images/gold.svg" alt="Gold" />
         <span>Gold</span>
       </a>
       <a href="diamond.html">
-        <img src="mk-jewels/images/diamond.svg" alt="Diamond" />
+        <img src="images/diamond.svg" alt="Diamond" />
         <span>Diamond</span>
       </a>
       <a href="earrings.html">
-        <img src="mk-jewels/images/earrings.svg" alt="Earrings" />
+        <img src="images/earrings.svg" alt="Earrings" />
         <span>Earrings</span>
       </a>
       <a href="rings.html">
-        <img src="mk-jewels/images/rings.svg" alt="Rings" />
+        <img src="images/rings.svg" alt="Rings" />
         <span>Rings</span>
       </a>
       <a href="dailywear.html">
-        <img src="mk-jewels/images/dailywear.svg" alt="Daily Wear" />
+        <img src="images/dailywear.svg" alt="Daily Wear" />
         <span>Daily Wear</span>
       </a>
       <a href="collection.html">
-        <img src="mk-jewels/images/collection.svg" alt="Collections" />
+        <img src="images/collection.svg" alt="Collections" />
         <span>Collections</span>
       </a>
       <a href="wedding.html">
-        <img src="mk-jewels/images/wedding.svg" alt="Wedding" />
+        <img src="images/wedding.svg" alt="Wedding" />
         <span>Wedding</span>
       </a>
       <a href="gifting.html">
-        <img src="mk-jewels/images/gifting.svg" alt="Gifting" />
+        <img src="images/gifting.svg" alt="Gifting" />
         <span>Gifting</span>
       </a>
       <a href="more.html">
-        <img src="mk-jewels/images/more.svg" alt="More" />
+        <img src="images/more.svg" alt="More" />
         <span>More</span>
       </a>
     </nav>
@@ -75,7 +75,7 @@ function Home() {
       {/* <!-- Full-screen image section --> */}
       <section className="full-screen-image">
         <img
-          src="mk-jewels/images/cover2.png"
+          src="images/cover2.png"
           alt="Pretty in Pink"
         />
         <div className="image-overlay">
@@ -92,20 +92,20 @@ function Home() {
         <div className="collection-layout">
           <div className="left-image">
             <img
-              src="C:\Users\MANJOT KAUR\Documents\reactjs\jewellery-project\mk-jewels/images\1.png"
+              src="images\1.png"
               alt="Diamond Earrings"
             />
           </div>
-          <div className="right-mk-jewels/images">
+          <div className="right-images">
             <div className="right-image">
               <img
-                src="C:\Users\MANJOT KAUR\Documents\reactjs\jewellery-project\mk-jewels/images\2.png"
+                src="images\2.png"
                 alt="Auspicious Jewellery"
               />
             </div>
             <div className="right-image">
               <img
-                src="C:\Users\MANJOT KAUR\Documents\reactjs\jewellery-project\mk-jewels/images\3.png"
+                src="images\3.png"
                 alt="Daily wear Chains"
               />
             </div>
@@ -119,49 +119,49 @@ function Home() {
         <div className="category-container">
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/4.png" alt="Earrings" />
+              <img src="images/4.png" alt="Earrings" />
             </div>
             <p className="category-label">EARRINGS</p>
           </div>
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/5.png" alt="Finger Rings" />
+              <img src="images/5.png" alt="Finger Rings" />
             </div>
             <p className="category-label">FINGER RINGS</p>
           </div>
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/6.png" alt="Pendants" />
+              <img src="images/6.png" alt="Pendants" />
             </div>
             <p className="category-label">PENDANTS</p>
           </div>
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/7.png" alt="Mangalsutra" />
+              <img src="images/7.png" alt="Mangalsutra" />
             </div>
             <p className="category-label">MANGALSUTRA</p>
           </div>
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/8.png" alt="Bracelets" />
+              <img src="images/8.png" alt="Bracelets" />
             </div>
             <p className="category-label">BRACELETS</p>
           </div>
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/9.png" alt="Bangles" />
+              <img src="images/9.png" alt="Bangles" />
             </div>
             <p className="category-label">BANGLES</p>
           </div>
           <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/10.png" alt="Chains" />
+              <img src="images/10.png" alt="Chains" />
             </div>
             <p className="category-label">CHAINS</p>
           </div>
            <div className="category-wrapper">
             <div className="category-card">
-              <img src="mk-jewels/images/11.png" alt="View All" />
+              <img src="images/11.png" alt="View All" />
             </div>
             <p className="category-label">VIEW ALL</p>
           </div>
@@ -176,11 +176,11 @@ function Home() {
     {/* <!-- Left side --> */}
     <div className="column">
       <div className="world-box short-box">
-        <img src="mk-jewels/images/12.png" alt="Wedding"/>
+        <img src="images/12.png" alt="Wedding"/>
         <div className="box-overlay">Wedding</div>
       </div>
       <div className="world-box tall-box">
-        <img src="mk-jewels/images/14.png" alt="Office Wear"/>
+        <img src="images/14.png" alt="Office Wear"/>
         <div className="box-overlay">Gold</div>
       </div>
     </div>
@@ -188,11 +188,11 @@ function Home() {
     {/* <!-- Right side --> */}
     <div className="column">
       <div className="world-box tall-box">
-        <img src="mk-jewels/images/13.png" alt="Diamond"/>
+        <img src="images/13.png" alt="Diamond"/>
         <div className="box-overlay">Office Wear </div>
       </div>
       <div className="world-box short-box">
-        <img src="mk-jewels/images/15.png" alt="Everyday"/>
+        <img src="images/15.png" alt="Everyday"/>
         <div className="box-overlay">Everyday</div>
       </div>
     </div>
@@ -201,7 +201,7 @@ function Home() {
 
 <section className="new-arrivals">
   <div className="background-container">
-    <img src="mk-jewels/images/16.png" alt="Rings Background" className="background-img"/>
+    <img src="images/16.png" alt="Rings Background" className="background-img"/>
 
     <div className="text-overlay">
       <h2>New Arrivals</h2>
@@ -213,14 +213,14 @@ function Home() {
     <div className="overlap-cards">
       <div className="card">
         <div className="image-container">
-          <img src="mk-jewels/images/17.png" alt="Mangalsutra"/>
+          <img src="images/17.png" alt="Mangalsutra"/>
           <div className="image-text">Mangalsutra</div>
         </div>
       </div>
 
       <div className="card">
         <div className="image-container">
-          <img src="mk-jewels/images/18.png" alt="Pendants"/>
+          <img src="images/18.png" alt="Pendants"/>
           <div className="image-text">Pendants</div>
         </div>
       </div>
@@ -236,15 +236,15 @@ function Home() {
     </div>
     <div className="right-box">
       <div className="assurance-item">
-        <img src="mk-jewels/images/19.png" alt="Quality Craftsmanship"/>
+        <img src="images/19.png" alt="Quality Craftsmanship"/>
         <p><strong>Quality</strong><br/>Craftsmanship</p>
       </div>
       <div className="assurance-item">
-        <img src="mk-jewels/images/20.png" alt="Ethically Sourced"/>
+        <img src="images/20.png" alt="Ethically Sourced"/>
         <p><strong>Ethically</strong><br/>Sourced</p>
       </div>
       <div className="assurance-item">
-        <img src="mk-jewels/images/21.png" alt="100% Transparency"/>
+        <img src="images/21.png" alt="100% Transparency"/>
         <p><strong>100%</strong><br/>Transparency</p>
       </div>
     </div>
@@ -283,17 +283,17 @@ function Home() {
       <h4>Chat With Us</h4>
       <p>+91 9876543210</p><br/>
       <div className="footer-icons">
-        <a href="#"><img src="mk-jewels/images/whatsapp.png" alt="WhatsApp" /></a>
-        <a href="#"><img src="mk-jewels/images/email.png" alt="Email" /></a>
-        <a href="#"><img src="mk-jewels/images/chat.png" alt="Chat" /></a>
+        <a href="#"><img src="images/whatsapp.png" alt="WhatsApp" /></a>
+        <a href="#"><img src="images/email.png" alt="Email" /></a>
+        <a href="#"><img src="images/chat.png" alt="Chat" /></a>
       </div>
     </div>
 
   <div className="footer-social">
     <span>Social</span>
-    <a href="#"><img src="mk-jewels/images/insta.png" alt="Instagram" /></a>
-    <a href="#"><img src="mk-jewels/images/fb.png" alt="Facebook" /></a>
-    <a href="#"><img src="mk-jewels/images/yt.png" alt="YouTube" /></a>
+    <a href="#"><img src="images/insta.png" alt="Instagram" /></a>
+    <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
+    <a href="#"><img src="images/yt.png" alt="YouTube" /></a>
   </div>
 
   <div className="footer-bottom">
