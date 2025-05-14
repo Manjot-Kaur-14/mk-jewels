@@ -1,6 +1,5 @@
 {
   "name": "mk-jewels",
-  "homepage": "https://manjot-kaur-14.github.io/mk-jewels",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "npm run build && gh-pages -d dist"
   },
+  "homepage": "https://manjot-kaur-14.github.io/mk-jewels",
+
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
