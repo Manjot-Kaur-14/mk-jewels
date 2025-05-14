@@ -92,20 +92,20 @@ function Home() {
         <div className="collection-layout">
           <div className="left-image">
             <img
-              src="images\1.png"
+              src="images/1.png"
               alt="Diamond Earrings"
             />
           </div>
           <div className="right-images">
             <div className="right-image">
               <img
-                src="images\2.png"
+                src="images/2.png"
                 alt="Auspicious Jewellery"
               />
             </div>
             <div className="right-image">
               <img
-                src="images\3.png"
+                src="images/3.png"
                 alt="Daily wear Chains"
               />
             </div>
