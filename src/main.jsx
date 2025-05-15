@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter basename="mk-jewels">
+    {/* <BrowserRouter basename="/"> */}
     <App />
     </BrowserRouter>
   </StrictMode>,
