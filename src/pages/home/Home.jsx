@@ -4,7 +4,7 @@ function Home() {
     <>
     <div>
       {/* <!-- Full-screen image section --> */}
-     <section class="full-screen-image">
+     <section className="full-screen-image">
         <img
           src="images/cover1.png"
           alt="Pretty in Pink"
