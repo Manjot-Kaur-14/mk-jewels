@@ -2,34 +2,34 @@ import { NavLink, Outlet } from "react-router";
 function NavBar() {
   return (
     <>
-      <header class="main-header">
-    <div class="top-row">
-      <div class="logo">
+      <header className="main-header">
+    <div className="top-row">
+      <div className="logo">
         
         <img src="images/mklogo.png" alt="MK Jewels Logo" />
       </div>
-      <div class="search-bar">
+      <div className="search-bar">
         <input
           type="text"
           placeholder="Search for Gold Jewellery, Diamond Jewellery, and more..."
         />
-        <button><i class="fas fa-search"></i></button>
+        <button><i className="fas fa-search"></i></button>
       </div>
-      <div class="header-icons">
-            <i class="fas fa-gem"></i>
-            <i class="fas fa-store"></i>
-            <i class="fas fa-heart"></i>
-            <i class="fas fa-user"></i>
-            <div class="cart-icon">
-              <i class="fas fa-shopping-bag"></i>
-              <span class="badge">0</span>
+      <div className="header-icons">
+            <i className="fas fa-gem"></i>
+            <i className="fas fa-store"></i>
+            <i className="fas fa-heart"></i>
+            <i className="fas fa-user"></i>
+            <div className="cart-icon">
+              <i className="fas fa-shopping-bag"></i>
+              <span className="badge">0</span>
             </div>
           </div>
     </div>
 
     {/* <!-- Bottom Navigation --> */}
-    <nav class="bottom-nav">
-      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="/">
+    <nav className="bottom-nav">
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="//">
             <img src="images/jewellery.svg" alt="All Jewellery" />
         <span>All Jewellery</span>
           </NavLink>
@@ -37,7 +37,7 @@ function NavBar() {
         <img src="images/jewellery.svg" alt="All Jewellery" />
         <span>All Jewellery</span>
       </a> */}
-      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="/gold">
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="gold">
             <img src="images/gold.svg" alt="Gold" />
         <span>Gold</span>
           </NavLink>

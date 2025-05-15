@@ -13,7 +13,7 @@ function MainNavbar() {
           <Route index path="/" element={<Home/>} />
           <Route path="gold" element={<Gold/>} />
          
-        <Route path="/*" element={<PageNotFound/>}/>
+        <Route path="*" element={<PageNotFound/>}/>
         {/* <Route path="/*" element={<Navigate to="/login" />} /> */}
       </Routes>
     </>
