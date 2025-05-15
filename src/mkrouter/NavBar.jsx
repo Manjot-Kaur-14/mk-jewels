@@ -33,47 +33,52 @@ function NavBar() {
             <img src="images/jewellery.svg" alt="All Jewellery" />
         <span>All Jewellery</span>
           </NavLink>
-      {/* <a href="index.html">
-        <img src="images/jewellery.svg" alt="All Jewellery" />
-        <span>All Jewellery</span>
-      </a> */}
+
       <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="gold">
             <img src="images/gold.svg" alt="Gold" />
         <span>Gold</span>
           </NavLink>
      
-      <a href="diamond.html">
-        <img src="images/diamond.svg" alt="Diamond" />
+     <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="diamond">
+           <img src="images/diamond.svg" alt="Diamond" />
         <span>Diamond</span>
-      </a>
-      <a href="earrings.html">
-        <img src="images/earrings.svg" alt="Earrings" />
+          </NavLink>
+
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="earrings">
+           <img src="images/earrings.svg" alt="Earrings" />
         <span>Earrings</span>
-      </a>
-      <a href="rings.html">
-        <img src="images/rings.svg" alt="Rings" />
+          </NavLink>
+ 
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="rings">
+           <img src="images/rings.svg" alt="Rings" />
         <span>Rings</span>
-      </a>
-      <a href="dailywear.html">
-        <img src="images/dailywear.svg" alt="Daily Wear" />
+          </NavLink>
+
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="dailywear">
+           <img src="images/dailywear.svg" alt="Daily Wear" />
         <span>Daily Wear</span>
-      </a>
-      <a href="collection.html">
-        <img src="images/collection.svg" alt="Collections" />
+          </NavLink>
+  
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="collections">
+           <img src="images/collection.svg" alt="Collections" />
         <span>Collections</span>
-      </a>
-      <a href="wedding.html">
-        <img src="images/wedding.svg" alt="Wedding" />
+          </NavLink>
+
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="wedding">
+           <img src="images/wedding.svg" alt="Wedding" />
         <span>Wedding</span>
-      </a>
-      <a href="gifting.html">
-        <img src="images/gifting.svg" alt="Gifting" />
+          </NavLink>
+
+      <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="gifting">
+           <img src="images/gifting.svg" alt="Gifting" />
         <span>Gifting</span>
-      </a>
-      <a href="more.html">
-        <img src="images/more.svg" alt="More" />
+          </NavLink>
+
+          <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="more">
+           <img src="images/more.svg" alt="More" />
         <span>More</span>
-      </a>
+          </NavLink>
+
     </nav>
   </header>
       

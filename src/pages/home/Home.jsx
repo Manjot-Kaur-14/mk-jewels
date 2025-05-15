@@ -4,21 +4,17 @@ function Home() {
     <>
     <div>
       {/* <!-- Full-screen image section --> */}
-      <section className="full-screen-image">
+     <section class="full-screen-image">
         <img
-          src="images/cover2.png"
+          src="images/cover1.png"
           alt="Pretty in Pink"
         />
-        <div className="image-overlay">
-          <h1>Pretty in Pink</h1>
-          <p>Everyday elegance, wrapped in the prettiest shades of pink</p>
-          <button>Shop Now</button>
-        </div>
+  
       </section>
 
       {/* <!-- Tanishq Collections Section --> */}
       <section className="collection-section">
-        <h2>Tanishq Collections</h2>
+        <h2>MK Collections</h2>
         <p>Explore our newly launched collection</p>
         <div className="collection-layout">
           <div className="left-image">
@@ -100,7 +96,7 @@ function Home() {
       </section>
 
      <section className="tanishq-world">
-  <h2>Tanishq World</h2>
+  <h2>MK World</h2>
   <p>A companion for every occasion</p>
 
   <div className="world-grid-custom">
@@ -162,7 +158,7 @@ function Home() {
 <section className= "assurance-box">
   <div className="assurance-content">
     <div className="left-box">
-      <h2><span className="brand">Tanishq</span> <span className="highlight">Assurance</span></h2>
+      <h2><span className="brand">MK</span> <span className="highlight">Assurance</span></h2>
       <p>Crafted by experts, cherished by you</p>
     </div>
     <div className="right-box">
@@ -196,7 +192,6 @@ function Home() {
         <li><a href="/find-store.html">Find a Store</a></li>
       </ul>
     </div>
-    </div>
 
     <div className="footer-info">
       <h3>Information</h3>
@@ -219,6 +214,7 @@ function Home() {
         <a href="#"><img src="images/chat.png" alt="Chat" /></a>
       </div>
     </div>
+  </div>
 
   <div className="footer-social">
     <span>Social</span>

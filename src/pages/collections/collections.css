@@ -1,0 +1,353 @@
+/* gold */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+
+}
+body {
+  font-family: 'Playfair Display', serif;
+}
+/* Header styling */
+.main-header {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  background: white;
+  font-family: "Georgia", serif;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.logo img {
+  height: 80px;
+  width: 170px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the search bar */
+  margin: 0 20px;
+}
+
+.search-bar input {
+  width: 60%; /* Adjusted width to make the input field less wide */
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #5c1e1e;
+  color: white;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center; /* Ensures icons are aligned horizontally */
+}
+
+.header-icons i {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #5c1e1e;
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon .badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: darkred;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Bottom Menu styling */
+/* General bottom navigation styling */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 10px 0;
+  /* border-top: 1px solid #ccc; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000000; /* Dark reddish tone for luxury feel */
+  font-size: 14px;
+  font-weight: medium;
+  transition: color 0.3s ease;
+}
+
+.bottom-nav a:hover {
+  color: #a84c4c; /* Slightly lighter tone on hover */
+}
+
+.bottom-nav a img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 4px;
+  object-fit: contain;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.eternity-collection {
+  background-color: #fff;
+  padding: 60px 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.collection-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.collection-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.collection-card img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.sku {
+  font-size: 14px;
+  color: #444;
+  font-family: 'Georgia', serif;
+}
+
+.hero-banner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.eternity-collection {
+  background-color: #ffffff;
+  padding: 0; /* Remove top/bottom padding */
+  font-family: 'Playfair Display', serif;
+  margin-top: 0; /* Ensure no extra margin from above */
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 0;  /* Remove any extra space above the grid */
+}
+
+
+/* Individual product cards */
+.collection-card {
+  background: #fff;
+  /* border: 1px solid rgb(90, 90, 90); */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.collection-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.collection-card h4 {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.collection-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+
+}
+
+/* Button wrapper */
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 60px; /* Adjust spacing as needed */
+  grid-column: span 4; /* Just in case you include it inside the grid */
+}
+
+
+.shop-button {
+  background: black;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  transition: 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #333;
+}
+
+.footer {
+  background-color: #2a0000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 0; /* Removed horizontal padding */
+  width: 100%;
+  border-radius: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Optional: minimal side padding for content */
+}
+
+.footer-links,
+.footer-info,
+.footer-contact {
+  flex: 1 1 250px;
+  margin: 20px;
+}
+
+.footer h3, .footer h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 8px 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #f0e0e0;
+  transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #ffd700;
+}
+
+.footer-contact p {
+  margin: 6px 0;
+}
+
+.footer-icons a {
+  margin-right: 35px;
+  display: inline-block;
+}
+
+.footer-icons img {
+  width: 26px;
+  height: 26px;
+  filter: brightness(0) invert(1);
+}
+
+.footer-social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-social span {
+  display: block;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-social img {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}

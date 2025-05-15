@@ -1,25 +1,26 @@
-import "./gold.css"
-function Gold() {
+import "./earrings.css"
+
+function Earrings() {
   return (
     <>
-    <div>
+
 {/* <!-- Breadcrumb section --> */}
 <div className="breadcrumb-top">
   <div className="breadcrumb-container">
     <div className="breadcrumb">
       <span>Home</span>
       <i className="fas fa-chevron-right"></i>
-      <span className="active">Gold</span>
+      <span className="active">Earrings</span>
     </div>
   </div>
 </div>
 
 {/* <!-- Title & Filter Bar --> */}
-  <div className="gold-header">
-    <div className="gold-header-container">
-      <div className="gold-title">
-        <h2>Gold</h2>
-        <span>(8528 results)</span>
+  <div className="earrings-header">
+    <div className="earrings-header-container">
+      <div className="earrings-title">
+        <h2>Earrings</h2>
+        <span>(4843 results)</span>
       </div>
 
       <div className="filter-bar">
@@ -38,12 +39,13 @@ function Gold() {
           <i className="fas fa-chevron-down"></i>
         </div>
       </div>
-      {/* <!-- Product Grid --> */}
+
+{/* <!-- Product Grid --> */}
     <div className="product-grid-container">
       <div className="product-grid">
     
     <div className="product-card">
-      <img src="images/22.png" alt="Lattice Glow Earrings"/>
+      <img src="images/68.png" alt="Lattice Glow Earrings"/>
       <div className="details">
         <div className="title">Lattice Glow Gold Drop Earrings</div>
         <div className="price">₹ 41865</div>
@@ -51,7 +53,7 @@ function Gold() {
     </div>
 
     <div className="product-card">
-      <img src="images/23.png" alt="Petite Drop Earrings"/>
+      <img src="images/69.png" alt="Petite Drop Earrings"/>
       <div className="details">
         <div className="title">Enticing Petite Drop Earrings</div>
         <div className="price">₹ 39900 <span className="stock">Only 1 left!</span></div>
@@ -59,7 +61,7 @@ function Gold() {
     </div>
 
     <div className="product-card">
-      <img src="images/24.png" alt="Leaf Motif Earrings"/>
+      <img src="images/70.png" alt="Leaf Motif Earrings"/>
       <div className="details">
         <div className="title">Leaf Motif Gold Drop Earrings</div>
         <div className="price">₹ 41145 <span className="stock">Only 1 left!</span></div>
@@ -67,7 +69,7 @@ function Gold() {
     </div>
     {/* <!-- Product 4 --> */}
 <div className="product-card">
-  <img src="images/25.png" alt="Graceful Loop Earrings"/>
+  <img src="images/71.png" alt="Graceful Loop Earrings"/>
   <div className="details">
     <div className="title">Graceful Loop Drop Earrings</div>
     <div className="price">₹ 42900</div>
@@ -76,7 +78,7 @@ function Gold() {
 
 {/* <!-- Product 5 --> */}
 <div className="product-card">
-  <img src="images/26.png" alt="Sunshine Earrings"/>
+  <img src="images/72.png" alt="Sunshine Earrings"/>
   <div className="details">
     <div className="title">Sunshine Gold Drop Earrings</div>
     <div className="price">₹ 39500 <span className="stock">Only 1 left!</span></div>
@@ -85,7 +87,7 @@ function Gold() {
 
 {/* <!-- Product 6 --> */}
 <div className="product-card">
-  <img src="images/27.png" alt="Blossom Earrings"/>
+  <img src="images/73.png" alt="Blossom Earrings"/>
   <div className="details">
     <div className="title">Blossom Glow Drop Earrings</div>
     <div className="price">₹ 42110</div>
@@ -94,7 +96,7 @@ function Gold() {
 
 {/* <!-- Product 7 --> */}
 <div className="product-card">
-  <img src="images/28.png" alt="Elegant Curve Earrings"/>
+  <img src="images/74.png" alt="Elegant Curve Earrings"/>
   <div className="details">
     <div className="title">Elegant Curve Gold Earrings</div>
     <div className="price">₹ 43750</div>
@@ -103,7 +105,7 @@ function Gold() {
 
 {/* <!-- Product 8 --> */}
 <div className="product-card">
-  <img src="images/29.png" alt="Twilight Bloom Earrings"/>
+  <img src="images/75.png" alt="Twilight Bloom Earrings"/>
   <div className="details">
     <div className="title">Twilight Bloom Drop Earrings</div>
     <div className="price">₹ 40400 <span className="stock">Only 1 left!</span></div>
@@ -112,7 +114,7 @@ function Gold() {
 
 {/* <!-- Product 9 --> */}
 <div className="product-card">
-  <img src="images/30.png" alt="Ornate Drop Earrings"/>
+  <img src="images/76.png" alt="Ornate Drop Earrings"/>
   <div className="details">
     <div className="title">Ornate Drop Gold Earrings</div>
     <div className="price">₹ 41660</div>
@@ -121,7 +123,7 @@ function Gold() {
 
 {/* <!-- Product 10 --> */}
 <div className="product-card">
-  <img src="images/31.png" alt="Shimmering Knot Earrings"/>
+  <img src="images/77.png" alt="Shimmering Knot Earrings"/>
   <div className="details">
     <div className="title">Shimmering Knot Earrings</div>
     <div className="price">₹ 42950</div>
@@ -130,7 +132,7 @@ function Gold() {
 
 {/* <!-- Product 11 --> */}
 <div className="product-card">
-  <img src="images/32.png" alt="Petal Touch Earrings"/>
+  <img src="images/78.png" alt="Petal Touch Earrings"/>
   <div className="details">
     <div className="title">Petal Touch Gold Earrings</div>
     <div className="price">₹ 39000 <span className="stock">Only 1 left!</span></div>
@@ -139,7 +141,7 @@ function Gold() {
 
 {/* <!-- Product 12 --> */}
 <div className="product-card">
-  <img src="images/33.png" alt="Halo Teardrop Earrings"/>
+  <img src="images/79.png" alt="Halo Teardrop Earrings"/>
   <div className="details">
     <div className="title">Halo Teardrop Earrings</div>
     <div className="price">₹ 40555</div>
@@ -148,7 +150,7 @@ function Gold() {
 
 {/* <!-- Product 13 --> */}
 <div className="product-card">
-  <img src="images/34.png" alt="Mystic Ring Earrings"/>
+  <img src="images/80.png" alt="Mystic Ring Earrings"/>
   <div className="details">
     <div className="title">Mystic Ring Drop Earrings</div>
     <div className="price">₹ 43800</div>
@@ -157,7 +159,7 @@ function Gold() {
 
 {/* <!-- Product 14 --> */}
 <div className="product-card">
-  <img src="images/35.png" alt="Golden Vine Earrings"/>
+  <img src="images/81.png" alt="Golden Vine Earrings"/>
   <div className="details">
     <div className="title">Golden Vine Earrings</div>
     <div className="price">₹ 41200 <span className="stock">Only 1 left!</span></div>
@@ -166,7 +168,7 @@ function Gold() {
 
 {/* <!-- Product 15 --> */}
 <div className="product-card">
-  <img src="images/36.png" alt="Minimal Elegance Earrings"/>
+  <img src="images/82.png" alt="Minimal Elegance Earrings"/>
   <div className="details">
     <div className="title">Minimal Elegance Earrings</div>
     <div className="price">₹ 39800</div>
@@ -175,7 +177,7 @@ function Gold() {
 
 {/* <!-- Product 16 --> */}
 <div className="product-card">
-  <img src="images/37.png" alt="Crimson Bloom Earrings"/>
+  <img src="images/83.png" alt="Crimson Bloom Earrings"/>
   <div className="details">
     <div className="title">Crimson Bloom Drop Earrings</div>
     <div className="price">₹ 41990</div>
@@ -184,7 +186,7 @@ function Gold() {
 
 {/* <!-- Product 17 --> */}
 <div className="product-card">
-  <img src="images/38.png" alt="Petite Pearl Earrings"/>
+  <img src="images/84.png" alt="Petite Pearl Earrings"/>
   <div className="details">
     <div className="title">Petite Pearl Gold Earrings</div>
     <div className="price">₹ 38700 <span className="stock">Only 1 left!</span></div>
@@ -193,7 +195,7 @@ function Gold() {
 
 {/* <!-- Product 18 --> */}
 <div className="product-card">
-  <img src="images/39.png" alt="Royal Twist Earrings"/>
+  <img src="images/85.png" alt="Royal Twist Earrings"/>
   <div className="details">
     <div className="title">Royal Twist Drop Earrings</div>
     <div className="price">₹ 42225</div>
@@ -202,7 +204,7 @@ function Gold() {
 
 {/* <!-- Product 19 --> */}
 <div className="product-card">
-  <img src="images/40.png" alt="Satin Loop Earrings"/>
+  <img src="images/86.png" alt="Satin Loop Earrings"/>
   <div className="details">
     <div className="title">Satin Loop Gold Earrings</div>
     <div className="price">₹ 43380</div>
@@ -211,7 +213,7 @@ function Gold() {
 
 {/* <!-- Product 20 --> */}
 <div className="product-card">
-  <img src="images/41.png" alt="Moonlight Drops Earrings"/>
+  <img src="images/87.png" alt="Moonlight Drops Earrings"/>
   <div className="details">
     <div className="title">Moonlight Drops Earrings</div>
     <div className="price">₹ 42670</div>
@@ -220,7 +222,7 @@ function Gold() {
 
 {/* <!-- Product 21 --> */}
 <div className="product-card">
-  <img src="images/42.png" alt="Amber Touch Earrings"/>
+  <img src="images/88.png" alt="Amber Touch Earrings"/>
   <div className="details">
     <div className="title">Amber Touch Drop Earrings</div>
     <div className="price">₹ 41700</div>
@@ -253,44 +255,27 @@ function Gold() {
     </div>
   </div>
 </section>
+      </div>
 
-    </div>
+    <div className="earrings-collection-info-box">
+  <h2>Rings: A Circle of Stories</h2>
+  <p>Rings adorn the fingers of women and men alike, marking life's momentous occasions and whispering tales of love, achievement, and self-discovery. At Tanishq, we believe every ring tells a story, and our collection is specially crafted for you to celebrate yours. Explore our platform to buy gold rings, and diamond rings, effortlessly. Whether you're searching for engagement rings, men's rings, or diamond engagement rings, our array of exquisite designs ensures there's something for every occasion and preference.</p>
 
-    <div className="gold-collection-info-box">
-  <h2>Explore Our Gold Collection</h2>
-  <p>Gold has captivated hearts for centuries, and its enduring allure continues today. At Tanishq, we celebrate this timeless tradition with a meticulously crafted collection of <strong>gold jewelry</strong>, offering a piece for every occasion and personal style.</p>
+  <h2>Earrings for All Occasions:</h2>
+  <p>Going out for a night out, a casual get-together, or just a normal day at the office, no matter your vibe, there's a pair of Tanishq earrings waiting to become your signature piece. Unleash your creativity and embrace the #MKLOOK with our stunning and fashionable earrings. </p>
 
-  <h2>Timeless Gold Jewelry for Every Occasion</h2>
-  <p>Choose from our diverse range of gold jewelry, where each piece is designed to add a touch of elegance and sophistication to your look:</p>
-
-  <h3>Gold Rings</h3>
-  <p>From classic bands and intricate engagement rings to statement cocktail rings, find the perfect symbol of love, commitment, or personal style in our <strong>gold ring design</strong> collection.</p>
+  <h3>Reimagine Your Old Gold with Tanishq's Exchange Program</h3>
+  <p>Tanishq's Exchange Program enables customers to trade in their old gold from any jeweller for newer designs, at the same time ensuring they receive the best possible value for their gold.</p>
 
   <h3>Gold Earrings</h3>
   <p>Discover a world of possibilities with our stunning collection of gold earrings. Choose from delicate studs to elaborate <strong>bridal gold earrings design</strong>, and find the perfect pair to complement your face shape and personal taste.</p>
 
-  <h3>Gold Necklaces</h3>
-  <p>Elevate your look with a beautiful gold necklace. We offer a variety of styles, from delicate chains to statement <strong>women gold necklace design</strong>, and a range of lengths to suit every neckline and outfit.</p>
-
-  <h3>Gold Pendants</h3>
-  <p>Express your individuality with a captivating <strong>gold pendant.</strong> Explore classic motifs, modern designs, personalized pieces, or gemstone-encrusted pendants for a touch of sparkle.</p>
-
-  <h3>Gold Chains</h3>
-  <p>Add a touch of timeless elegance with a gold chain. Choose from classic styles, bold statement pieces, or delicate <strong>gold chains</strong> for everyday wear.</p>
-
-  <h3>Gold Bangles</h3>
-  <p>Embrace tradition and heritage with our exquisite collection of gold bangles. Explore a variety of <strong>gold bangles latest design,</strong> from sleek and modern to intricately crafted bangles inspired by regional motifs</p>
-
-  <h3>Gold Coins</h3>
-  <p>Invest in the timeless value of gold with our collection of <strong>gold coins.</strong> These beautiful and auspicious pieces are perfect for gifting or adding to your personal collection.</p>
 
   <h2>Perfect Gifts for Loved Ones</h2>
   <p>Gold jewelry makes a thoughtful and lasting gift for any occasion. Celebrate birthdays, anniversaries, graduations, or simply show your love and appreciation with a piece from our collection.</p>
 
-  <h2>Explore Nav-raani Collections</h2>
-  <p>For an air of royalty, delve into the exquisite Nav-raani collection, featuring handcrafted pieces are a celebration of rich Indian heritage. Each piece is a masterful homage to Indian artistry, allowing you to embrace your inner royalty or gift a piece steeped in history and cultural significance.</p>
 </div>
-      </div>
+</div>
       </div>
 
 
@@ -343,9 +328,10 @@ function Gold() {
     <p>&copy; 2025 YourJewels. All rights reserved.</p>
   </div>
 </footer>
-</div>
+
+
     </>
   )
 }
 
-export default Gold;
+export default Earrings;
