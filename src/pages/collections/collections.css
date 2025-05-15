@@ -9,6 +9,10 @@
 }
 body {
   font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
 }
 /* Header styling */
 .main-header {
@@ -115,14 +119,6 @@ body {
   height: 28px;
   margin-bottom: 4px;
   object-fit: contain;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #333;
 }
 
 .eternity-collection {

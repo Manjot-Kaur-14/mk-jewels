@@ -9,6 +9,10 @@
 }
 body {
   font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
 }
 /* Header styling */
 .main-header {
@@ -117,13 +121,7 @@ body {
   object-fit: contain;
 }
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #333;
-}
+
 
 /* Wrapper for horizontal spacing */
 .breadcrumb-container {
@@ -239,23 +237,10 @@ body {
 /* Product Grid Layout */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
   gap: 24px;
   padding-top: 40px;
 }
-
-@media (max-width: 1024px) {
-  .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .product-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 
 /* Product Card */
 .product-card {
