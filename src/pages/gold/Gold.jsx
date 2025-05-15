@@ -46,7 +46,7 @@ function Gold() {
       <div className="product-grid">
     
     <div className="product-card">
-      <img src="/images/22.png" alt="Lattice Glow Earrings"/>
+      <img src="images/22.png" alt="Lattice Glow Earrings"/>
       <div className="details">
         <div className="title">Lattice Glow Gold Drop Earrings</div>
         <div className="price">₹ 41865</div>
@@ -54,7 +54,7 @@ function Gold() {
     </div>
 
     <div className="product-card">
-      <img src="/images/23.png" alt="Petite Drop Earrings"/>
+      <img src="images/23.png" alt="Petite Drop Earrings"/>
       <div className="details">
         <div className="title">Enticing Petite Drop Earrings</div>
         <div className="price">₹ 39900 <span className="stock">Only 1 left!</span></div>
@@ -62,7 +62,7 @@ function Gold() {
     </div>
 
     <div className="product-card">
-      <img src="/images/24.png" alt="Leaf Motif Earrings"/>
+      <img src="images/24.png" alt="Leaf Motif Earrings"/>
       <div className="details">
         <div className="title">Leaf Motif Gold Drop Earrings</div>
         <div className="price">₹ 41145 <span className="stock">Only 1 left!</span></div>
@@ -70,7 +70,7 @@ function Gold() {
     </div>
     {/* <!-- Product 4 --> */}
 <div className="product-card">
-  <img src="/images/25.png" alt="Graceful Loop Earrings"/>
+  <img src="images/25.png" alt="Graceful Loop Earrings"/>
   <div className="details">
     <div className="title">Graceful Loop Drop Earrings</div>
     <div className="price">₹ 42900</div>
@@ -79,7 +79,7 @@ function Gold() {
 
 {/* <!-- Product 5 --> */}
 <div className="product-card">
-  <img src="/images/26.png" alt="Sunshine Earrings"/>
+  <img src="images/26.png" alt="Sunshine Earrings"/>
   <div className="details">
     <div className="title">Sunshine Gold Drop Earrings</div>
     <div className="price">₹ 39500 <span className="stock">Only 1 left!</span></div>
@@ -88,7 +88,7 @@ function Gold() {
 
 {/* <!-- Product 6 --> */}
 <div className="product-card">
-  <img src="/images/27.png" alt="Blossom Earrings"/>
+  <img src="images/27.png" alt="Blossom Earrings"/>
   <div className="details">
     <div className="title">Blossom Glow Drop Earrings</div>
     <div className="price">₹ 42110</div>
@@ -97,7 +97,7 @@ function Gold() {
 
 {/* <!-- Product 7 --> */}
 <div className="product-card">
-  <img src="/images/28.png" alt="Elegant Curve Earrings"/>
+  <img src="images/28.png" alt="Elegant Curve Earrings"/>
   <div className="details">
     <div className="title">Elegant Curve Gold Earrings</div>
     <div className="price">₹ 43750</div>
@@ -106,7 +106,7 @@ function Gold() {
 
 {/* <!-- Product 8 --> */}
 <div className="product-card">
-  <img src="/images/29.png" alt="Twilight Bloom Earrings"/>
+  <img src="images/29.png" alt="Twilight Bloom Earrings"/>
   <div className="details">
     <div className="title">Twilight Bloom Drop Earrings</div>
     <div className="price">₹ 40400 <span className="stock">Only 1 left!</span></div>
@@ -115,7 +115,7 @@ function Gold() {
 
 {/* <!-- Product 9 --> */}
 <div className="product-card">
-  <img src="/images/30.png" alt="Ornate Drop Earrings"/>
+  <img src="images/30.png" alt="Ornate Drop Earrings"/>
   <div className="details">
     <div className="title">Ornate Drop Gold Earrings</div>
     <div className="price">₹ 41660</div>
@@ -124,7 +124,7 @@ function Gold() {
 
 {/* <!-- Product 10 --> */}
 <div className="product-card">
-  <img src="/images/31.png" alt="Shimmering Knot Earrings"/>
+  <img src="images/31.png" alt="Shimmering Knot Earrings"/>
   <div className="details">
     <div className="title">Shimmering Knot Earrings</div>
     <div className="price">₹ 42950</div>
@@ -133,7 +133,7 @@ function Gold() {
 
 {/* <!-- Product 11 --> */}
 <div className="product-card">
-  <img src="/images/32.png" alt="Petal Touch Earrings"/>
+  <img src="images/32.png" alt="Petal Touch Earrings"/>
   <div className="details">
     <div className="title">Petal Touch Gold Earrings</div>
     <div className="price">₹ 39000 <span className="stock">Only 1 left!</span></div>
@@ -142,7 +142,7 @@ function Gold() {
 
 {/* <!-- Product 12 --> */}
 <div className="product-card">
-  <img src="/images/33.png" alt="Halo Teardrop Earrings"/>
+  <img src="images/33.png" alt="Halo Teardrop Earrings"/>
   <div className="details">
     <div className="title">Halo Teardrop Earrings</div>
     <div className="price">₹ 40555</div>
@@ -151,7 +151,7 @@ function Gold() {
 
 {/* <!-- Product 13 --> */}
 <div className="product-card">
-  <img src="/images/34.png" alt="Mystic Ring Earrings"/>
+  <img src="images/34.png" alt="Mystic Ring Earrings"/>
   <div className="details">
     <div className="title">Mystic Ring Drop Earrings</div>
     <div className="price">₹ 43800</div>
@@ -160,7 +160,7 @@ function Gold() {
 
 {/* <!-- Product 14 --> */}
 <div className="product-card">
-  <img src="/images/35.png" alt="Golden Vine Earrings"/>
+  <img src="images/35.png" alt="Golden Vine Earrings"/>
   <div className="details">
     <div className="title">Golden Vine Earrings</div>
     <div className="price">₹ 41200 <span className="stock">Only 1 left!</span></div>
@@ -169,7 +169,7 @@ function Gold() {
 
 {/* <!-- Product 15 --> */}
 <div className="product-card">
-  <img src="/images/36.png" alt="Minimal Elegance Earrings"/>
+  <img src="images/36.png" alt="Minimal Elegance Earrings"/>
   <div className="details">
     <div className="title">Minimal Elegance Earrings</div>
     <div className="price">₹ 39800</div>
@@ -178,7 +178,7 @@ function Gold() {
 
 {/* <!-- Product 16 --> */}
 <div className="product-card">
-  <img src="/images/37.png" alt="Crimson Bloom Earrings"/>
+  <img src="images/37.png" alt="Crimson Bloom Earrings"/>
   <div className="details">
     <div className="title">Crimson Bloom Drop Earrings</div>
     <div className="price">₹ 41990</div>
@@ -187,7 +187,7 @@ function Gold() {
 
 {/* <!-- Product 17 --> */}
 <div className="product-card">
-  <img src="/images/38.png" alt="Petite Pearl Earrings"/>
+  <img src="images/38.png" alt="Petite Pearl Earrings"/>
   <div className="details">
     <div className="title">Petite Pearl Gold Earrings</div>
     <div className="price">₹ 38700 <span className="stock">Only 1 left!</span></div>
@@ -196,7 +196,7 @@ function Gold() {
 
 {/* <!-- Product 18 --> */}
 <div className="product-card">
-  <img src="/images/39.png" alt="Royal Twist Earrings"/>
+  <img src="images/39.png" alt="Royal Twist Earrings"/>
   <div className="details">
     <div className="title">Royal Twist Drop Earrings</div>
     <div className="price">₹ 42225</div>
@@ -205,7 +205,7 @@ function Gold() {
 
 {/* <!-- Product 19 --> */}
 <div className="product-card">
-  <img src="/images/40.png" alt="Satin Loop Earrings"/>
+  <img src="images/40.png" alt="Satin Loop Earrings"/>
   <div className="details">
     <div className="title">Satin Loop Gold Earrings</div>
     <div className="price">₹ 43380</div>
@@ -214,7 +214,7 @@ function Gold() {
 
 {/* <!-- Product 20 --> */}
 <div className="product-card">
-  <img src="/images/41.png" alt="Moonlight Drops Earrings"/>
+  <img src="images/41.png" alt="Moonlight Drops Earrings"/>
   <div className="details">
     <div className="title">Moonlight Drops Earrings</div>
     <div className="price">₹ 42670</div>
@@ -223,7 +223,7 @@ function Gold() {
 
 {/* <!-- Product 21 --> */}
 <div className="product-card">
-  <img src="/images/42.png" alt="Amber Touch Earrings"/>
+  <img src="images/42.png" alt="Amber Touch Earrings"/>
   <div className="details">
     <div className="title">Amber Touch Drop Earrings</div>
     <div className="price">₹ 41700</div>
@@ -239,19 +239,19 @@ function Gold() {
   <p className="tq-subtext">Crafted by experts, cherished by you.</p>
   <div className="tq-features">
     <div className="tq-feature">
-      <img src="/images/43.png" alt="Tanishq Exchange"/>
+      <img src="images/43.png" alt="Tanishq Exchange"/>
       <p>MK<br/>Exchange</p>
     </div>
     <div className="tq-feature">
-      <img src="/images/44.png" alt="Purity Guarantee"/>
+      <img src="images/44.png" alt="Purity Guarantee"/>
       <p>Purity<br/>Guarantee</p>
     </div>
     <div className="tq-feature">
-      <img src="/images/45.png" alt="Easy Replacements"/>
+      <img src="images/45.png" alt="Easy Replacements"/>
       <p>Easy<br/>Replacements</p>
     </div>
     <div className="tq-feature">
-      <img src="/images/46.png" alt="Lifetime Maintenance"/>
+      <img src="images/46.png" alt="Lifetime Maintenance"/>
       <p>Lifetime<br/>Maintenance</p>
     </div>
   </div>
@@ -324,18 +324,18 @@ function Gold() {
       <h4>Chat With Us</h4>
       <p>+91 9876543210</p><br/>
       <div className="footer-icons">
-        <a href="#"><img src="/images/whatsapp.png" alt="WhatsApp" /></a>
-        <a href="#"><img src="/images/email.png" alt="Email" /></a>
-        <a href="#"><img src="/images/chat.png" alt="Chat" /></a>
+        <a href="#"><img src="images/whatsapp.png" alt="WhatsApp" /></a>
+        <a href="#"><img src="images/email.png" alt="Email" /></a>
+        <a href="#"><img src="images/chat.png" alt="Chat" /></a>
       </div>
     </div>
   </div>
 
   <div className="footer-social">
     <span>Social</span>
-    <a href="#"><img src="/images/insta.png" alt="Instagram" /></a>
-    <a href="#"><img src="/images/fb.png" alt="Facebook" /></a>
-    <a href="#"><img src="/images/yt.png" alt="YouTube" /></a>
+    <a href="#"><img src="images/insta.png" alt="Instagram" /></a>
+    <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
+    <a href="#"><img src="images/yt.png" alt="YouTube" /></a>
   </div>
 
   <div className="footer-bottom">
