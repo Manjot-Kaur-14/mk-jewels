@@ -1,0 +1,41 @@
+/* About Section */
+.about-section {
+    margin: 10px 250px ;
+  padding-bottom: 40px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #7b2a2a;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.brand-story {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.about-block {
+  margin-bottom: 30px;
+}
+
+.about-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #3c1a1a;
+}
+
+.about-text {
+  font-size: 0.8rem;
+  color: #3c1a1a;
+  line-height: 1.6;
+  text-align: justify;
+}

@@ -1,0 +1,81 @@
+.tanishq-container {
+  padding: 1.5rem;
+  max-width: 80rem;
+  margin: 2.5rem auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+}
+
+.tanishq-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  color: #7f1d1d;
+  margin-bottom: 1.5rem;
+}
+
+.tanishq-text {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.tanishq-warning {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #dc2626;
+  margin-bottom: 1.5rem;
+}
+
+.tanishq-subheading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.tanishq-underline {
+  text-decoration: underline;
+}
+
+.tanishq-list {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.tanishq-list ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.tanishq-table-container {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.tanishq-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tanishq-table th,
+.tanishq-table td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 1rem;
+}
+
+.tanishq-table thead tr {
+  background-color: #7f1d1d;
+  color: #ffffff;
+}
+
+.tanishq-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tanishq-table tbody tr:nth-child(even) {
+  background-color: #fef2f2;
+}

@@ -1,0 +1,54 @@
+.track-order-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.track-order-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.track-order-container .description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.track-order-container hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.track-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.track-form input {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.track-form button {
+  padding: 15px;
+  background-color: #7b2323;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.track-form button:hover {
+  background-color: #5e1a1a;
+}

@@ -1,0 +1,121 @@
+/* TanishqOffer.css */
+
+.help-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.help-title {
+  text-align: center;
+  color: #7b2329;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.help-subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.help-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 2rem 0;
+}
+
+.help-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.help-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.help-label {
+  font-size: 1.1rem;
+  color: #7b2329;
+  font-weight: 600;
+}
+
+.help-contact {
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.help-note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.faq-section {
+  margin-top: 2rem;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.faq-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.faq-link {
+  color: #7b2329;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-q-text {
+  color: #7b2329;
+  font-weight: 600;
+  margin: 0;
+}
+
+.faq-toggle {
+  font-size: 1.2rem;
+  color: #7b2329;
+  font-weight: bold;
+}
+
+.faq-answer {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+  padding-left: 1rem;
+}

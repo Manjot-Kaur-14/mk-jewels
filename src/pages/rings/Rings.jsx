@@ -293,55 +293,7 @@ function Rings() {
 </div>
 </div>
 </div>
-{/* <!-- FOOTER START --> */}
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-links">
-      <h3>Useful Links</h3>
-      <ul>
-        <li><a href="/delivery-information.html">Delivery Information</a></li>
-        <li><a href="/international-shipping.html">International Shipping</a></li>
-        <li><a href="/payment-options.html">Payment Options</a></li>
-        <li><a href="/track-order.html">Track your Order</a></li>
-        <li><a href="/returns.html">Returns</a></li>
-        <li><a href="/find-store.html">Find a Store</a></li>
-      </ul>
-    </div>
 
-    <div class="footer-info">
-      <h3>Information</h3>
-      <ul>
-        <li><a href="/blog.html">Blog</a></li>
-        <li><a href="/offers.html">Offers & Contest Details</a></li>
-        <li><a href="/faqs.html">Help & FAQs</a></li>
-        <li><a href="/about.html">About Us</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-contact">
-      <h3>Contact Us</h3>
-      <p>1800-123-4567</p><br/>
-      <h4>Chat With Us</h4>
-      <p>+91 9876543210</p><br/>
-      <div class="footer-icons">
-        <a href="#"><img src="images/whatsapp.png" alt="WhatsApp" /></a>
-        <a href="#"><img src="images/email.png" alt="Email" /></a>
-        <a href="#"><img src="images/chat.png" alt="Chat" /></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-social">
-    <span>Social</span>
-    <a href="#"><img src="images/insta.png" alt="Instagram" /></a>
-    <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
-    <a href="#"><img src="images/yt.png" alt="YouTube" /></a>
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; 2025 YourJewels. All rights reserved.</p>
-  </div>
-</footer>
 
     </>
   )

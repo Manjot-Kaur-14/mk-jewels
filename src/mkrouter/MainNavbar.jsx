@@ -12,6 +12,15 @@ import Collections from '../pages/collections/collections';
 import Wedding from '../pages/wedding/wedding';
 import Gifting from '../pages/gifting/Gifting';
 import More from '../pages/more/More';
+import Footer from '../pages/footer/Footer';
+import DeliveryInformation from '../pages/footerpages/DeliveryInformation';
+import InternationalShipping from '../pages/footerpages/InternationalShipping';
+import PaymentOptions from '../pages/footerpages/PaymentOptions';
+import TrackOrder from '../pages/footerpages/TrackOrder';
+import Returns from '../pages/footerpages/Returns';
+import Offers from '../pages/footerpages/Offers';
+import HelpFaqs from '../pages/footerpages/HelpFaqs';
+import AboutUs from '../pages/footerpages/AboutUs';
 function MainNavbar() {
   
   return (
@@ -30,8 +39,19 @@ function MainNavbar() {
           <Route path="more" element={<More/>} />
          
         <Route path="*" element={<PageNotFound/>}/>
+
+        <Route path="delivery-information" element={<DeliveryInformation/>}/>
+        <Route path="international-shipping" element={<InternationalShipping/>}/>
+        <Route path="payment-options" element={<PaymentOptions/>}/>
+        <Route path="track-order" element={<TrackOrder/>}/>
+        <Route path="returns" element={<Returns/>}/>
+        <Route path="offers" element={<Offers/>}/>
+        <Route path="helpfaqs" element={<HelpFaqs/>}/>
+        <Route path="aboutus" element={<AboutUs/>}/>
+
         {/* <Route path="/*" element={<Navigate to="/login" />} /> */}
       </Routes>
+      <Footer/>
     </>
   );
 }

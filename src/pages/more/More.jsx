@@ -61,51 +61,6 @@ function More() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="footer">
-        <div className="footer-container">
-          <div className="footer-links">
-            <h3>Useful Links</h3>
-            <ul>
-              <li><a href="#">Delivery Information</a></li>
-              <li><a href="#">International Shipping</a></li>
-              <li><a href="#">Payment Options</a></li>
-              <li><a href="#">Track your Order</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">Find a Store</a></li>
-            </ul>
-          </div>
-          <div className="footer-info">
-            <h3>Information</h3>
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Offers & Contest Details</a></li>
-              <li><a href="#">Help & FAQs</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
-          </div>
-          <div className="footer-contact">
-            <h3>Contact Us</h3>
-            <p>1800-123-4567</p>
-            <h4>Chat With Us</h4>
-            <p>+91 9876543210</p>
-            <div className="footer-icons">
-              <a href="#"><img src="images/whatsapp.png" alt="WhatsApp" /></a>
-              <a href="#"><img src="images/email.png" alt="Email" /></a>
-              <a href="#"><img src="images/chat.png" alt="Chat" /></a>
-            </div>
-          </div>
-        </div>
-        <div className="footer-social">
-          <span>Social</span>
-          <a href="#"><img src="images/insta.png" alt="Instagram" /></a>
-          <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
-          <a href="#"><img src="images/yt.png" alt="YouTube" /></a>
-        </div>
-        <div className="footer-bottom">
-          <p>© 2025 YourJewels. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }

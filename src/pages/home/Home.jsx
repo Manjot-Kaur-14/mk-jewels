@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./home.css"
 function Home() {
   return (
@@ -18,23 +19,32 @@ function Home() {
         <p>Explore our newly launched collection</p>
         <div className="collection-layout">
           <div className="left-image">
-            <img
-              src="images/1.png"
-              alt="Diamond Earrings"
-            />
+            <Link to="/earrings">
+        <img
+          src="images/1.png"
+          alt="Diamond Earrings"
+          style={{ cursor: "pointer" }}
+        />
+      </Link>
           </div>
           <div className="right-images">
             <div className="right-image">
-              <img
-                src="images/2.png"
-                alt="Auspicious Jewellery"
-              />
+               <Link to="/collections">
+          <img
+            src="images/2.png"
+            alt="Auspicious Jewellery"
+            style={{ cursor: "pointer" }}
+          />
+        </Link>
             </div>
             <div className="right-image">
-              <img
-                src="images/3.png"
-                alt="Daily wear Chains"
-              />
+              <Link to="/dailywear">
+          <img
+            src="images/3.png"
+            alt="Daily wear Chains"
+            style={{ cursor: "pointer" }}
+          />
+        </Link>
             </div>
           </div>
         </div>
@@ -102,26 +112,34 @@ function Home() {
   <div className="world-grid-custom">
     {/* <!-- Left side --> */}
     <div className="column">
-      <div className="world-box short-box">
-        <img src="images/12.png" alt="Wedding"/>
-        <div className="box-overlay">Wedding</div>
-      </div>
-      <div className="world-box tall-box">
-        <img src="images/14.png" alt="Office Wear"/>
-        <div className="box-overlay">Gold</div>
-      </div>
+       <Link to="/wedding">
+        <div className="world-box short-box">
+          <img src="images/12.png" alt="Wedding" />
+          <div className="box-overlay">Wedding</div>
+        </div>
+      </Link>
+      <Link to="/gold">
+        <div className="world-box tall-box">
+          <img src="images/14.png" alt="Gold" />
+          <div className="box-overlay">Gold</div>
+        </div>
+      </Link>
     </div>
 
     {/* <!-- Right side --> */}
     <div className="column">
-      <div className="world-box tall-box">
-        <img src="images/13.png" alt="Diamond"/>
-        <div className="box-overlay">Office Wear </div>
-      </div>
-      <div className="world-box short-box">
-        <img src="images/15.png" alt="Everyday"/>
-        <div className="box-overlay">Everyday</div>
-      </div>
+      <Link to="/dailywear">
+        <div className="world-box tall-box">
+          <img src="images/13.png" alt="Office Wear" />
+          <div className="box-overlay">Office Wear</div>
+        </div>
+      </Link>
+      <Link to="/diamond">
+        <div className="world-box short-box">
+          <img src="images/15.png" alt="Diamond" />
+          <div className="box-overlay">Everyday</div>
+        </div>
+      </Link>
     </div>
   </div>
 </section>
@@ -178,55 +196,7 @@ function Home() {
   </div>
 </section>
 
-{/* <!-- FOOTER START --> */}
-<footer className="footer">
-  <div className="footer-container">
-    <div className="footer-links">
-      <h3>Useful Links</h3>
-      <ul>
-        <li><a href="/delivery-information.html">Delivery Information</a></li>
-        <li><a href="/international-shipping.html">International Shipping</a></li>
-        <li><a href="/payment-options.html">Payment Options</a></li>
-        <li><a href="/track-order.html">Track your Order</a></li>
-        <li><a href="/returns.html">Returns</a></li>
-        <li><a href="/find-store.html">Find a Store</a></li>
-      </ul>
-    </div>
 
-    <div className="footer-info">
-      <h3>Information</h3>
-      <ul>
-        <li><a href="/blog.html">Blog</a></li>
-        <li><a href="/offers.html">Offers & Contest Details</a></li>
-        <li><a href="/faqs.html">Help & FAQs</a></li>
-        <li><a href="/about.html">About Us</a></li>
-      </ul>
-    </div>
-
-    <div className="footer-contact">
-      <h3>Contact Us</h3>
-      <p>1800-123-4567</p><br/>
-      <h4>Chat With Us</h4>
-      <p>+91 9876543210</p><br/>
-      <div className="footer-icons">
-        <a href="#"><img src="images/whatsapp.png" alt="WhatsApp" /></a>
-        <a href="#"><img src="images/email.png" alt="Email" /></a>
-        <a href="#"><img src="images/chat.png" alt="Chat" /></a>
-      </div>
-    </div>
-  </div>
-
-  <div className="footer-social">
-    <span>Social</span>
-    <a href="#"><img src="images/insta.png" alt="Instagram" /></a>
-    <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
-    <a href="#"><img src="images/yt.png" alt="YouTube" /></a>
-  </div>
-
-  <div className="footer-bottom">
-    <p>&copy; 2025 YourJewels. All rights reserved.</p>
-  </div>
-</footer>
 
     </div>
 
