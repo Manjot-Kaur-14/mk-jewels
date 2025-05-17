@@ -20,7 +20,6 @@ function Footer() {
     <div className="footer-info">
       <h3>Information</h3>
       <ul>
-        <li><a href="/blog.html">Blog</a></li>
         <li><Link to="/offers">Offers & Contest Details</Link></li>
         <li><Link to="/helpfaqs">Help & FAQs</Link></li>
         <li><Link to="/aboutus">About Us</Link></li>

@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./gold.css"
 function Gold() {
   return (
@@ -43,7 +44,9 @@ function Gold() {
       <div className="product-grid">
     
     <div className="product-card">
-      <img src="images/22.png" alt="Lattice Glow Earrings"/>
+      <Link to="/product/g001">
+          <img src="images/22.png" alt="Enticing Petite Drop Earrings" id="g001" />
+        </Link>
       <div className="details">
         <div className="title">Lattice Glow Gold Drop Earrings</div>
         <div className="price">₹ 41865</div>
@@ -51,7 +54,9 @@ function Gold() {
     </div>
 
     <div className="product-card">
-      <img src="images/23.png" alt="Petite Drop Earrings"/>
+      <Link to="/product/g002">
+          <img src="images/23.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
       <div className="details">
         <div className="title">Enticing Petite Drop Earrings</div>
         <div className="price">₹ 39900 <span className="stock">Only 1 left!</span></div>

@@ -1,5 +1,5 @@
 import React from 'react'
-       import { Navigate, Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router";
 import Home from '../pages/home/Home';
 import NavBar from './NavBar';
 import PageNotFound from '../PageNotFound';
@@ -21,6 +21,7 @@ import Returns from '../pages/footerpages/Returns';
 import Offers from '../pages/footerpages/Offers';
 import HelpFaqs from '../pages/footerpages/HelpFaqs';
 import AboutUs from '../pages/footerpages/AboutUs';
+import ProductDetail from '../pages/productdetails/ProductDetail';
 function MainNavbar() {
   
   return (
@@ -48,6 +49,8 @@ function MainNavbar() {
         <Route path="offers" element={<Offers/>}/>
         <Route path="helpfaqs" element={<HelpFaqs/>}/>
         <Route path="aboutus" element={<AboutUs/>}/>
+
+        <Route path="product/:id" element={<ProductDetail />} />
 
         {/* <Route path="/*" element={<Navigate to="/login" />} /> */}
       </Routes>

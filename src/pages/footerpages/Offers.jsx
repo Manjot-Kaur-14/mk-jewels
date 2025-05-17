@@ -4,7 +4,7 @@ import "./offers.css";
 function Offers() {
   return (
     <div className="tanishq-container">
-      <h1 className="tanishq-title">Tanishq Gold Exchange Offer</h1>
+      <h1 className="tanishq-title">MK Jewels Gold Exchange Offer</h1>
       <p className="tanishq-text">
         <strong>Offer period :</strong> 1st May 2025 to 31st May 2025
       </p>
@@ -13,8 +13,8 @@ function Offers() {
       </p>
       <p className="tanishq-text">
         <strong>Applicable Product Groups :</strong> This offer is applicable for
-        below mentioned jewellery purchase at Tanishq stores across India.
-        Please contact your nearest Tanishq store for any further detail.
+        below mentioned jewellery purchase at MK Jewels stores across India.
+        Please contact your nearest MK Jewels store for any further detail.
       </p>
       <ol className="tanishq-list">
         <li>
@@ -137,7 +137,7 @@ function Offers() {
           and cannot reserve it for later.
         </li>
         <li>
-          This offer is valid only in Tanishq store India, not available online.
+          This offer is valid only in MK Jewels store India, not available online.
         </li>
         <li>
           Titan Co Ltd reserves the right to change the offer without any prior communication.
