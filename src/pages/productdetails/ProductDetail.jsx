@@ -47,7 +47,7 @@ setProductInfo(infoproduct);
           {/* METAL DETAILS */}
           <div className="accordion-item" onClick={() => toggle(0)}>
             <div className="accordion-header">
-              <img src="/mk-jewels/public/images/176.png" alt="Metal Icon" className="accordion-icon" />
+              <img src="/mk-jewels/images/176.png" alt="Metal Icon" className="accordion-icon" />
               <span>METAL DETAILS</span>
               <span className="dropdown">{activeIndex === 0 ? "▾" : "▸"}</span>
             </div>
@@ -84,7 +84,7 @@ setProductInfo(infoproduct);
           {/* DESCRIPTION */}
           <div className="accordion-item" onClick={() => toggle(2)}>
             <div className="accordion-header">
-              <img src="/mk-jewels/public/images/177.png" alt="Description Icon" className="accordion-icon" />
+              <img src="/mk-jewels/images/177.png" alt="Description Icon" className="accordion-icon" />
               <span>DESCRIPTION</span>
               <span className="dropdown">{activeIndex === 2 ? "▾" : "▸"}</span>
             </div>
