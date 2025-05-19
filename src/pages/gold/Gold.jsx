@@ -49,7 +49,7 @@ function Gold() {
         </Link>
       <div className="details">
         <div className="title">Lattice Glow Gold Drop Earrings</div>
-        <div className="price">₹ 41865</div>
+        <div className="price">₹ 41652</div>
       </div>
     </div>
 
@@ -64,171 +64,209 @@ function Gold() {
     </div>
 
     <div className="product-card">
-      <img src="images/24.png" alt="Leaf Motif Earrings"/>
+      <Link to="/product/g003">
+          <img src="images/24.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
       <div className="details">
         <div className="title">Leaf Motif Gold Drop Earrings</div>
-        <div className="price">₹ 41145 <span className="stock">Only 1 left!</span></div>
+        <div className="price">₹ 43109 <span className="stock">Only 1 left!</span></div>
       </div>
     </div>
     {/* <!-- Product 4 --> */}
 <div className="product-card">
-  <img src="images/25.png" alt="Graceful Loop Earrings"/>
+  <Link to="/product/g004">
+          <img src="images/25.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Graceful Loop Drop Earrings</div>
-    <div className="price">₹ 42900</div>
+    <div className="title">Enchanted Grid Gold Stud Earrings</div>
+    <div className="price">₹ 32589</div>
   </div>
 </div>
 
 {/* <!-- Product 5 --> */}
 <div className="product-card">
-  <img src="images/26.png" alt="Sunshine Earrings"/>
+  <Link to="/product/g005">
+          <img src="images/26.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Sunshine Gold Drop Earrings</div>
-    <div className="price">₹ 39500 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Radiant Drop Earrings</div>
+    <div className="price">₹ 42433 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 6 --> */}
 <div className="product-card">
-  <img src="images/27.png" alt="Blossom Earrings"/>
+  <Link to="/product/g006">
+          <img src="images/27.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Blossom Glow Drop Earrings</div>
-    <div className="price">₹ 42110</div>
+    <div className="title">Artistry Gold Drop Earrings</div>
+    <div className="price">₹ 42216</div>
   </div>
 </div>
 
 {/* <!-- Product 7 --> */}
 <div className="product-card">
-  <img src="images/28.png" alt="Elegant Curve Earrings"/>
+  <Link to="/product/g007">
+          <img src="images/28.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Elegant Curve Gold Earrings</div>
-    <div className="price">₹ 43750</div>
+    <div className="title">Artistry Gold Drop Earrings</div>
+    <div className="price">₹ 42216</div>
   </div>
 </div>
 
 {/* <!-- Product 8 --> */}
 <div className="product-card">
-  <img src="images/29.png" alt="Twilight Bloom Earrings"/>
+  <Link to="/product/g008">
+          <img src="images/29.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Twilight Bloom Drop Earrings</div>
-    <div className="price">₹ 40400 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Netted Miracles Hoop Earrings</div>
+    <div className="price">₹ 37070 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 9 --> */}
 <div className="product-card">
-  <img src="images/30.png" alt="Ornate Drop Earrings"/>
+  <Link to="/product/g009">
+          <img src="images/30.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Ornate Drop Gold Earrings</div>
-    <div className="price">₹ 41660</div>
+    <div className="title">Surreal Gold Pendant</div>
+    <div className="price">₹ 19645</div>
   </div>
 </div>
 
 {/* <!-- Product 10 --> */}
 <div className="product-card">
-  <img src="images/31.png" alt="Shimmering Knot Earrings"/>
+  <Link to="/product/g010">
+          <img src="images/31.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Shimmering Knot Earrings</div>
-    <div className="price">₹ 42950</div>
+    <div className="title">Minimalistic Leaf Motif Gold Pendant</div>
+    <div className="price">₹ 19987</div>
   </div>
 </div>
 
 {/* <!-- Product 11 --> */}
 <div className="product-card">
-  <img src="images/32.png" alt="Petal Touch Earrings"/>
+  <Link to="/product/g011">
+          <img src="images/32.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Petal Touch Gold Earrings</div>
-    <div className="price">₹ 39000 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Glimmering Gold Pendant</div>
+    <div className="price">₹ 44425 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 12 --> */}
 <div className="product-card">
-  <img src="images/33.png" alt="Halo Teardrop Earrings"/>
+  <Link to="/product/g012">
+          <img src="images/33.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Halo Teardrop Earrings</div>
-    <div className="price">₹ 40555</div>
+    <div className="title">Abstract Ripple Gold Pendant</div>
+    <div className="price">₹ 32941</div>
   </div>
 </div>
 
 {/* <!-- Product 13 --> */}
 <div className="product-card">
-  <img src="images/34.png" alt="Mystic Ring Earrings"/>
+  <Link to="/product/g013">
+          <img src="images/34.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Mystic Ring Drop Earrings</div>
-    <div className="price">₹ 43800</div>
+    <div className="title">Golden Flame Pendant</div>
+    <div className="price">₹ 13545</div>
   </div>
 </div>
 
 {/* <!-- Product 14 --> */}
 <div className="product-card">
-  <img src="images/35.png" alt="Golden Vine Earrings"/>
+  <Link to="/product/g014">
+          <img src="images/35.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Golden Vine Earrings</div>
-    <div className="price">₹ 41200 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Dainty Gold Pendant with Om and Ganesha Design</div>
+    <div className="price">₹ 17414 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 15 --> */}
 <div className="product-card">
-  <img src="images/36.png" alt="Minimal Elegance Earrings"/>
+  <Link to="/product/g015">
+          <img src="images/36.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Minimal Elegance Earrings</div>
-    <div className="price">₹ 39800</div>
+    <div className="title">Charming Delicate Pendant</div>
+    <div className="price">₹ 14277</div>
   </div>
 </div>
 
 {/* <!-- Product 16 --> */}
 <div className="product-card">
-  <img src="images/37.png" alt="Crimson Bloom Earrings"/>
+  <Link to="/product/g016">
+          <img src="images/37.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Crimson Bloom Drop Earrings</div>
-    <div className="price">₹ 41990</div>
+    <div className="title">Luminous Charm Pendant</div>
+    <div className="price">₹ 28997</div>
   </div>
 </div>
 
 {/* <!-- Product 17 --> */}
 <div className="product-card">
-  <img src="images/38.png" alt="Petite Pearl Earrings"/>
+  <Link to="/product/g017">
+          <img src="images/38.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Petite Pearl Gold Earrings</div>
-    <div className="price">₹ 38700 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Glorious 22 Karat Yellow Gold Floral Ring</div>
+    <div className="price">₹ 41652 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 18 --> */}
 <div className="product-card">
-  <img src="images/39.png" alt="Royal Twist Earrings"/>
+  <Link to="/product/g018">
+          <img src="images/39.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Royal Twist Drop Earrings</div>
-    <div className="price">₹ 42225</div>
+    <div className="title">Unique 22 Karat Yellow Gold Leaf Finger Ring</div>
+    <div className="price">₹ 23928</div>
   </div>
 </div>
 
 {/* <!-- Product 19 --> */}
 <div className="product-card">
-  <img src="images/40.png" alt="Satin Loop Earrings"/>
+  <Link to="/product/g019">
+          <img src="images/40.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Satin Loop Gold Earrings</div>
-    <div className="price">₹ 43380</div>
+    <div className="title">Pleasing 22 Karat Yellow Gold Leaf Pattern Finger Ring</div>
+    <div className="price">₹ 26364</div>
   </div>
 </div>
 
 {/* <!-- Product 20 --> */}
 <div className="product-card">
-  <img src="images/41.png" alt="Moonlight Drops Earrings"/>
+  <Link to="/product/g020">
+          <img src="images/41.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Moonlight Drops Earrings</div>
-    <div className="price">₹ 42670</div>
+    <div className="title">Surreal Leaf Ring</div>
+    <div className="price">₹ 28270</div>
   </div>
 </div>
 
 {/* <!-- Product 21 --> */}
 <div className="product-card">
-  <img src="images/42.png" alt="Amber Touch Earrings"/>
+  <Link to="/product/g021">
+          <img src="images/42.png" alt="Petite Drop Earrings" id="g002" />
+        </Link>
   <div className="details">
-    <div className="title">Amber Touch Drop Earrings</div>
-    <div className="price">₹ 41700</div>
+    <div className="title">Luminous Nature Ring</div>
+    <div className="price">₹ 27824</div>
   </div>
 </div>
 <div className="load-more-btn-container">

@@ -70,12 +70,12 @@ setProductInfo(infoproduct);
                   <p>Metal</p>
                 </div>
                 <div className="detail-box">
-                  <strong>{productInfo?.metal_details?.earring_height}</strong>
-                  <p>Earring Height</p>
+                  <strong>{productInfo?.metal_details?.height}</strong>
+                  <p>Height</p>
                 </div>
                 <div className="detail-box">
-                  <strong>{productInfo?.metal_details?.earring_width}</strong>
-                  <p>Earring Width</p>
+                  <strong>{productInfo?.metal_details?.width}</strong>
+                  <p>Width</p>
                 </div>
               </div>
             )}
