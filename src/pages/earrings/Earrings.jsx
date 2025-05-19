@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./earrings.css"
 
 function Earrings() {
@@ -45,187 +46,229 @@ function Earrings() {
       <div className="product-grid">
     
     <div className="product-card">
-      <img src="images/68.png" alt="Lattice Glow Earrings"/>
+      <Link to="/product/g043">
+          <img src="images/68.png" alt="Enticing Petite Drop Earrings" id="g043" />
+        </Link>
       <div className="details">
-        <div className="title">Lattice Glow Gold Drop Earrings</div>
-        <div className="price">₹ 41865</div>
+        <div className="title">Hexa Spark Diamond Stud Earrings</div>
+        <div className="price">₹ 30093</div>
       </div>
     </div>
 
     <div className="product-card">
-      <img src="images/69.png" alt="Petite Drop Earrings"/>
+      <Link to="/product/g044">
+          <img src="images/69.png" alt="Petite Drop Earrings" id="g044" />
+        </Link>
       <div className="details">
-        <div className="title">Enticing Petite Drop Earrings</div>
-        <div className="price">₹ 39900 <span className="stock">Only 1 left!</span></div>
+        <div className="title">Twinkle Dome Diamond Jhumka Earrings for Kids</div>
+        <div className="price">₹ 63021 <span className="stock">Only 1 left!</span></div>
       </div>
     </div>
 
     <div className="product-card">
-      <img src="images/70.png" alt="Leaf Motif Earrings"/>
+      <Link to="/product/g045">
+          <img src="images/70.png" alt="Petite Drop Earrings" id="g045" />
+        </Link>
       <div className="details">
-        <div className="title">Leaf Motif Gold Drop Earrings</div>
-        <div className="price">₹ 41145 <span className="stock">Only 1 left!</span></div>
+        <div className="title">Floral Flare Gold Stud Earrings</div>
+        <div className="price">₹ 34791 <span className="stock">Only 1 left!</span></div>
       </div>
     </div>
     {/* <!-- Product 4 --> */}
 <div className="product-card">
-  <img src="images/71.png" alt="Graceful Loop Earrings"/>
+  <Link to="/product/g046">
+          <img src="images/71.png" alt="Petite Drop Earrings" id="g046" />
+        </Link>
   <div className="details">
-    <div className="title">Graceful Loop Drop Earrings</div>
-    <div className="price">₹ 42900</div>
+    <div className="title">Scalloped Shine Gold Drop Earring</div>
+    <div className="price">₹ 45810</div>
   </div>
 </div>
 
 {/* <!-- Product 5 --> */}
 <div className="product-card">
-  <img src="images/72.png" alt="Sunshine Earrings"/>
+  <Link to="/product/g047">
+          <img src="images/72.png" alt="Petite Drop Earrings" id="g047" />
+        </Link>
   <div className="details">
-    <div className="title">Sunshine Gold Drop Earrings</div>
-    <div className="price">₹ 39500 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Breathtaking Onyx Stone Diamond Stud Earrings for Kids</div>
+    <div className="price">₹ 41423 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 6 --> */}
 <div className="product-card">
-  <img src="images/73.png" alt="Blossom Earrings"/>
+  <Link to="/product/g048">
+          <img src="images/73.png" alt="Petite Drop Earrings" id="g048" />
+        </Link>
   <div className="details">
-    <div className="title">Blossom Glow Drop Earrings</div>
-    <div className="price">₹ 42110</div>
+    <div className="title">Floral Swing Gold Drop Earrings</div>
+    <div className="price">₹ 53668</div>
   </div>
 </div>
 
 {/* <!-- Product 7 --> */}
 <div className="product-card">
-  <img src="images/74.png" alt="Elegant Curve Earrings"/>
+  <Link to="/product/g049">
+          <img src="images/74.png" alt="Petite Drop Earrings" id="g049" />
+        </Link>
   <div className="details">
-    <div className="title">Elegant Curve Gold Earrings</div>
-    <div className="price">₹ 43750</div>
+    <div className="title">Radiant Rhombus Gold Stud Earrings</div>
+    <div className="price">₹ 78012</div>
   </div>
 </div>
 
 {/* <!-- Product 8 --> */}
 <div className="product-card">
-  <img src="images/75.png" alt="Twilight Bloom Earrings"/>
+  <Link to="/product/g050">
+          <img src="images/75.png" alt="Petite Drop Earrings" id="g050" />
+        </Link>
   <div className="details">
-    <div className="title">Twilight Bloom Drop Earrings</div>
-    <div className="price">₹ 40400 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Concentric Beads Drop Earrings</div>
+    <div className="price">₹ 50438 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 9 --> */}
 <div className="product-card">
-  <img src="images/76.png" alt="Ornate Drop Earrings"/>
+  <Link to="/product/g051">
+          <img src="images/76.png" alt="Petite Drop Earrings" id="g051" />
+        </Link>
   <div className="details">
-    <div className="title">Ornate Drop Gold Earrings</div>
-    <div className="price">₹ 41660</div>
+    <div className="title">Surreal Diamond Stud Earrings</div>
+    <div className="price">₹ 21359</div>
   </div>
 </div>
 
 {/* <!-- Product 10 --> */}
 <div className="product-card">
-  <img src="images/77.png" alt="Shimmering Knot Earrings"/>
+  <Link to="/product/g052">
+          <img src="images/77.png" alt="Petite Drop Earrings" id="g052" />
+        </Link>
   <div className="details">
-    <div className="title">Shimmering Knot Earrings</div>
-    <div className="price">₹ 42950</div>
+    <div className="title">Enchanting Floral Diamond Stud Earrings for Kids</div>
+    <div className="price">₹ 27796</div>
   </div>
 </div>
 
 {/* <!-- Product 11 --> */}
 <div className="product-card">
-  <img src="images/78.png" alt="Petal Touch Earrings"/>
+  <Link to="/product/g053">
+          <img src="images/78.png" alt="Petite Drop Earrings" id="g053" />
+        </Link>
   <div className="details">
-    <div className="title">Petal Touch Gold Earrings</div>
-    <div className="price">₹ 39000 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Radiant Geometric Diamond Stud Earrings</div>
+    <div className="price">₹ 30205 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 12 --> */}
 <div className="product-card">
-  <img src="images/79.png" alt="Halo Teardrop Earrings"/>
+  <Link to="/product/g054">
+          <img src="images/79.png" alt="Petite Drop Earrings" id="g054" />
+        </Link>
   <div className="details">
-    <div className="title">Halo Teardrop Earrings</div>
-    <div className="price">₹ 40555</div>
+    <div className="title">Glorious Flower Diamond Stud Earrings for Kids</div>
+    <div className="price">₹ 28626</div>
   </div>
 </div>
 
 {/* <!-- Product 13 --> */}
 <div className="product-card">
-  <img src="images/80.png" alt="Mystic Ring Earrings"/>
+  <Link to="/product/g055">
+          <img src="images/80.png" alt="Petite Drop Earrings" id="g055" />
+        </Link>
   <div className="details">
-    <div className="title">Mystic Ring Drop Earrings</div>
-    <div className="price">₹ 43800</div>
+    <div className="title">Dazzling Floral Diamond Stud Earrings</div>
+    <div className="price">₹ 27565</div>
   </div>
 </div>
 
 {/* <!-- Product 14 --> */}
 <div className="product-card">
-  <img src="images/81.png" alt="Golden Vine Earrings"/>
+  <Link to="/product/g056">
+          <img src="images/81.png" alt="Petite Drop Earrings" id="g056" />
+        </Link>
   <div className="details">
-    <div className="title">Golden Vine Earrings</div>
-    <div className="price">₹ 41200 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Flawless Floral Diamond Stud Earrings</div>
+    <div className="price">₹ 31344 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 15 --> */}
 <div className="product-card">
-  <img src="images/82.png" alt="Minimal Elegance Earrings"/>
+  <Link to="/product/g057">
+          <img src="images/82.png" alt="Petite Drop Earrings" id="g057" />
+        </Link>
   <div className="details">
-    <div className="title">Minimal Elegance Earrings</div>
-    <div className="price">₹ 39800</div>
+    <div className="title">Luminous Elegance Diamond Drop Earrings</div>
+    <div className="price">₹ 37507</div>
   </div>
 </div>
 
 {/* <!-- Product 16 --> */}
 <div className="product-card">
-  <img src="images/83.png" alt="Crimson Bloom Earrings"/>
+  <Link to="/product/g058">
+          <img src="images/83.png" alt="Petite Drop Earrings" id="g058" />
+        </Link>
   <div className="details">
-    <div className="title">Crimson Bloom Drop Earrings</div>
-    <div className="price">₹ 41990</div>
+    <div className="title">Spiral Swirl Gold Stud Earrings</div>
+    <div className="price">₹ 47242</div>
   </div>
 </div>
 
 {/* <!-- Product 17 --> */}
 <div className="product-card">
-  <img src="images/84.png" alt="Petite Pearl Earrings"/>
+  <Link to="/product/g059">
+          <img src="images/84.png" alt="Petite Drop Earrings" id="g059" />
+        </Link>
   <div className="details">
-    <div className="title">Petite Pearl Gold Earrings</div>
-    <div className="price">₹ 38700 <span className="stock">Only 1 left!</span></div>
+    <div className="title">Tulip Loop Gold Stud Earrings</div>
+    <div className="price">₹ 31185 <span className="stock">Only 1 left!</span></div>
   </div>
 </div>
 
 {/* <!-- Product 18 --> */}
 <div className="product-card">
-  <img src="images/85.png" alt="Royal Twist Earrings"/>
+  <Link to="/product/g060">
+          <img src="images/85.png" alt="Petite Drop Earrings" id="g060" />
+        </Link>
   <div className="details">
-    <div className="title">Royal Twist Drop Earrings</div>
-    <div className="price">₹ 42225</div>
+    <div className="title">Golden Ruffles Gold Drop Earrings</div>
+    <div className="price">₹ 182931</div>
   </div>
 </div>
 
 {/* <!-- Product 19 --> */}
 <div className="product-card">
-  <img src="images/86.png" alt="Satin Loop Earrings"/>
+  <Link to="/product/g061">
+          <img src="images/86.png" alt="Petite Drop Earrings" id="g061" />
+        </Link>
   <div className="details">
-    <div className="title">Satin Loop Gold Earrings</div>
-    <div className="price">₹ 43380</div>
+    <div className="title">Radiant Halo Gold Drop Earrings</div>
+    <div className="price">₹ 164896</div>
   </div>
 </div>
 
 {/* <!-- Product 20 --> */}
 <div className="product-card">
-  <img src="images/87.png" alt="Moonlight Drops Earrings"/>
+  <Link to="/product/g062">
+          <img src="images/87.png" alt="Petite Drop Earrings" id="g062" />
+        </Link>
   <div className="details">
-    <div className="title">Moonlight Drops Earrings</div>
-    <div className="price">₹ 42670</div>
+    <div className="title">Textured Arc Gold Stud Earrings</div>
+    <div className="price">₹ 59856</div>
   </div>
 </div>
 
 {/* <!-- Product 21 --> */}
 <div className="product-card">
-  <img src="images/88.png" alt="Amber Touch Earrings"/>
+  <Link to="/product/g063">
+          <img src="images/88.png" alt="Petite Drop Earrings" id="g063" />
+        </Link>
   <div className="details">
-    <div className="title">Amber Touch Drop Earrings</div>
-    <div className="price">₹ 41700</div>
+    <div className="title">Petal Heart Gold Stud Earrings</div>
+    <div className="price">₹ 27471</div>
   </div>
 </div>
 <div className="load-more-btn-container">
@@ -255,7 +298,8 @@ function Earrings() {
     </div>
   </div>
 </section>
-      </div>
+
+    </div>
 
     <div className="earrings-collection-info-box">
   <h2>Rings: A Circle of Stories</h2>
