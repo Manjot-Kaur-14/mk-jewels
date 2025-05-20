@@ -11,32 +11,41 @@ const cartSlice = createSlice({
       const existingItem = state.itemList.find(
         (item) => item.id === newItem.id
       );
+
       if (existingItem) {
         existingItem.quantity++;
-        existingItem.totalPrice = existingItem.price * existingItem.quantity;
+        existingItem.totalPrice =
+          parseInt(existingItem.price.toString().replace(/[^\d]/g, "")) *
+          existingItem.quantity;
       } else {
         state.itemList.push({
-          name: action.payload.name,
-          price: action.payload.price,
-          totalPrice: action.payload.totalPrice,
-          id: action.payload.id,
+          id: newItem.id,
+          name: newItem.name,
+          price: newItem.price,
           quantity: 1,
+          imageurl: newItem.imageurl,
+          height: newItem.height,
+          gross_weight: newItem.gross_weight,
+          totalPrice: parseInt(newItem.price.toString().replace(/[^\d]/g, "")),
+          
         });
       }
     },
+
     removeFromCart(state, action) {
-      const findItem = state.itemList.find(
-        (item) => item.id === action.payload.id
-      );
-      if (findItem.quantity === 1) {
-        state.itemList = state.itemList.filter(
-          (item) => item.id != action.payload.id
-        );
+      const itemId = action.payload.id;
+      const item = state.itemList.find((item) => item.id === itemId);
+
+      if (item.quantity === 1) {
+        state.itemList = state.itemList.filter((item) => item.id !== itemId);
       } else {
-        findItem.quantity--;
-        findItem.totalPrice -= findItem.price;
+        item.quantity--;
+        item.totalPrice =
+          parseInt(item.price.toString().replace(/[^\d]/g, "")) *
+          item.quantity;
       }
     },
+
     setShowCart(state) {
       state.showCart = !state.showCart;
     },

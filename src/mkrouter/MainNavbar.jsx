@@ -23,6 +23,8 @@ import HelpFaqs from '../pages/footerpages/HelpFaqs';
 import AboutUs from '../pages/footerpages/AboutUs';
 import ProductDetail from '../pages/productdetails/ProductDetail';
 import CartDetails from '../pages/cartdetails/CartDetails';
+import LoginForm from '../pages/login/LoginForm';
+import CheckoutSuccess from '../pages/cartdetails/CheckoutSuccess';
 function MainNavbar() {
   
   return (
@@ -51,6 +53,9 @@ function MainNavbar() {
         <Route path="offers" element={<Offers/>}/>
         <Route path="helpfaqs" element={<HelpFaqs/>}/>
         <Route path="aboutus" element={<AboutUs/>}/>
+        <Route path="loginform" element={<LoginForm/>}/>
+        <Route path="cartdetails" element={<CartDetails/>}/>
+        <Route path="checkout-success" element={<CheckoutSuccess/>}/>
 
         <Route path="product/:id" element={<ProductDetail />} />
 

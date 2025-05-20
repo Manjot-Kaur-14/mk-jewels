@@ -1,0 +1,99 @@
+.main-header {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  z-index: 10;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #c694b8;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #a06f96;
+}
+
+.header-icons i,
+.header-icons .cart-icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: #c694b8;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.bottom-nav {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.bottom-nav .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #777;
+  text-decoration: none;
+}
+
+.bottom-nav .custom-active {
+  color: #c694b8;
+}
+
+.bottom-nav img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+/* Position the LoginForm container */
+.user-form-container {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  z-index: 100;
+  background: transparent;
+}

@@ -1,47 +1,49 @@
 import { NavLink, Outlet, useNavigate } from "react-router";
-
 import { useSelector, useDispatch } from "react-redux";
 import { setShowCart } from "../redux/cartSlice";
 
 function NavBar() {
-  const navigate  =  useNavigate()
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const elements = useSelector((state) => state.reducer.itemList);
   const state = useSelector((state) => state.reducer.showCart);
+
   const showElements = () => {
     dispatch(setShowCart(state));
-    navigate("/cart")
+    navigate("/cart");
   };
+
+  const goToLogin = () => {
+    navigate("/loginform");
+  };
+
   return (
     <>
       <header className="main-header">
-    <div className="top-row">
-      <div className="logo">
-        
-        <img src="images/mklogo.png" alt="MK Jewels Logo" />
-      </div>
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search for Gold Jewellery, Diamond Jewellery, and more..."
-        />
-        <button><i className="fas fa-search"></i></button>
-      </div>
-      <div className="header-icons">
+        <div className="top-row">
+          <div className="logo">
+            <img src="images/mklogo.png" alt="MK Jewels Logo" />
+          </div>
+          <div className="search-bar">
+            <input
+              type="text"
+              placeholder="Search for Gold Jewellery, Diamond Jewellery, and more..."
+            />
+            <button><i className="fas fa-search"></i></button>
+          </div>
+          <div className="header-icons">
             <i className="fas fa-gem"></i>
             <i className="fas fa-store"></i>
             <i className="fas fa-heart"></i>
-            <i className="fas fa-user"></i>
+            <i className="fas fa-user" onClick={goToLogin}></i> {/* 👈 Updated */}
             <div className="cart-icon" onClick={showElements}>
               <i className="fas fa-shopping-bag"></i>
-              <span className="badge" >{elements.length}   
-              </span>
+              <span className="badge">{elements.length}</span>
             </div>
           </div>
-    </div>
+        </div>
 
-    {/* <!-- Bottom Navigation --> */}
-    <nav className="bottom-nav">
+        <nav className="bottom-nav">
       <NavLink className={({isActive})=> isActive?'custom-active link':'link'} to="//">
             <img src="images/jewellery.svg" alt="All Jewellery" />
         <span>All Jewellery</span>
@@ -93,10 +95,9 @@ function NavBar() {
           </NavLink>
 
     </nav>
-  </header>
-      
-    <Outlet/>
+      </header>
 
+      <Outlet />
     </>
   );
 }

@@ -100,9 +100,20 @@ setProductInfo(infoproduct);
       </div>
       <div className="add-to-cart-container">
   <button 
-  
-  onClick={ () => { dispatch(addToCart({  name: productInfo?.name, id:productInfo?.id, price : productInfo.price, totalPrice:productInfo?.price }))}}
-  className="add-to-cart-button">Add to Cart</button>
+  onClick={() => {
+    dispatch(addToCart({
+      name: productInfo?.name,
+      id: productInfo?.id,
+      price: productInfo?.price,
+      imageurl: productInfo?.imageurl,
+      height: productInfo?.metal_details?.height,
+      gross_weight: productInfo?.metal_details?.gross_weight
+    }));
+  }}
+  className="add-to-cart-button"
+>
+  Add to Cart
+</button>
 </div>
 </>):"no data found"}
     </>
