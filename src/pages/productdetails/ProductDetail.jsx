@@ -2,14 +2,15 @@ import React, { useEffect, useState } from "react";
 import "./productdetail.css";
 import { useParams } from "react-router";
 import {data} from "../data/datainfo";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../redux/cartSlice";
 
 const ProductDetail = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [productInfo, setProductInfo] = useState(data);
     const {id}=useParams();
-    // console.log(id,data);
-  // console.log(productInfo);
-
+    const dispatch = useDispatch(); // to store data inot redux
+    
   const toggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
@@ -98,7 +99,10 @@ setProductInfo(infoproduct);
 
       </div>
       <div className="add-to-cart-container">
-  <button className="add-to-cart-button">Add to Cart</button>
+  <button 
+  
+  onClick={ () => { dispatch(addToCart({  name: productInfo?.name, id:productInfo?.id, price : productInfo.price, totalPrice:productInfo?.price }))}}
+  className="add-to-cart-button">Add to Cart</button>
 </div>
 </>):"no data found"}
     </>

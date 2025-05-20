@@ -1,5 +1,17 @@
-import { NavLink, Outlet } from "react-router";
+import { NavLink, Outlet, useNavigate } from "react-router";
+
+import { useSelector, useDispatch } from "react-redux";
+import { setShowCart } from "../redux/cartSlice";
+
 function NavBar() {
+  const navigate  =  useNavigate()
+  const dispatch = useDispatch();
+  const elements = useSelector((state) => state.reducer.itemList);
+  const state = useSelector((state) => state.reducer.showCart);
+  const showElements = () => {
+    dispatch(setShowCart(state));
+    navigate("/cart")
+  };
   return (
     <>
       <header className="main-header">
@@ -20,9 +32,10 @@ function NavBar() {
             <i className="fas fa-store"></i>
             <i className="fas fa-heart"></i>
             <i className="fas fa-user"></i>
-            <div className="cart-icon">
+            <div className="cart-icon" onClick={showElements}>
               <i className="fas fa-shopping-bag"></i>
-              <span className="badge">0</span>
+              <span className="badge" >{elements.length}   
+              </span>
             </div>
           </div>
     </div>

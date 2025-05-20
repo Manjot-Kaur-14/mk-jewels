@@ -22,6 +22,7 @@ import Offers from '../pages/footerpages/Offers';
 import HelpFaqs from '../pages/footerpages/HelpFaqs';
 import AboutUs from '../pages/footerpages/AboutUs';
 import ProductDetail from '../pages/productdetails/ProductDetail';
+import CartDetails from '../pages/cartdetails/CartDetails';
 function MainNavbar() {
   
   return (
@@ -37,6 +38,7 @@ function MainNavbar() {
           <Route path="collections" element={<Collections/>} />
           <Route path="wedding" element={<Wedding/>} />
           <Route path="gifting" element={<Gifting/>} />
+          <Route path="cart" element={<CartDetails/>} />
           <Route path="more" element={<More/>} />
          
         <Route path="*" element={<PageNotFound/>}/>
