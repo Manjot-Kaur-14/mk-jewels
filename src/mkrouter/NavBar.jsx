@@ -24,13 +24,13 @@ function NavBar() {
           <div className="logo">
             <img src="images/mklogo.png" alt="MK Jewels Logo" />
           </div>
-          <div className="search-bar">
+          {/* <div className="search-bar">
             <input
               type="text"
               placeholder="Search for Gold Jewellery, Diamond Jewellery, and more..."
             />
             <button><i className="fas fa-search"></i></button>
-          </div>
+          </div> */}
           <div className="header-icons">
             <i className="fas fa-gem"></i>
             <i className="fas fa-store"></i>
