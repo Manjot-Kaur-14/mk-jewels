@@ -5,8 +5,8 @@ import { setShowCart } from "../redux/cartSlice";
 function NavBar() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const elements = useSelector((state) => state.reducer.itemList);
-  const state = useSelector((state) => state.reducer.showCart);
+  const elements = useSelector((state) => state.product.itemList);
+  const state = useSelector((state) => state.product.showCart);
 
   const showElements = () => {
     dispatch(setShowCart(state));

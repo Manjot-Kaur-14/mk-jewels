@@ -6,7 +6,7 @@ import { useNavigate } from "react-router";
 
 const CartDetails = () => {
   const navigate = useNavigate();
-  const elements = useSelector((state) => state.reducer.itemList);
+  const elements = useSelector((state) => state.product.itemList);
 
   // Calculate total price
   const totalPrice = elements.reduce((acc, item) => acc + item.totalPrice, 0);

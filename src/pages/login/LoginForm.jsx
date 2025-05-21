@@ -1,18 +1,24 @@
 import { useState } from "react";
 import "./loginform.css";
 import { useNavigate } from "react-router";
+import { login } from "../../redux/loginSlice";
+import { useDispatch, useSelector } from "react-redux";
 
 const LoginForm = () => {
   const [username, setUsername] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
   const navigate = useNavigate();
+    const dispatch = useDispatch(); // to store data into redux
+
 
   const handleLogin = () => {
     console.log("Username:", username);
     console.log("Phone:", phone);
     console.log("Address:", address);
-    navigate("/cart"); // 👈 Navigate to CartDetails
+    dispatch(login({username:username,phone:phone,address:address}))
+   navigate("/cart"); // 👈 Navigate to CartDetails
+  
   };
 
   return (

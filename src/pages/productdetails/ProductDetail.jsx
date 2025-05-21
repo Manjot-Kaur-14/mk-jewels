@@ -9,7 +9,7 @@ const ProductDetail = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [productInfo, setProductInfo] = useState(data);
     const {id}=useParams();
-    const dispatch = useDispatch(); // to store data inot redux
+    const dispatch = useDispatch(); // to store data into redux
     
   const toggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -101,6 +101,7 @@ setProductInfo(infoproduct);
       <div className="add-to-cart-container">
   <button 
   onClick={() => {
+    alert("Product has been added to the cart.")
     dispatch(addToCart({
       name: productInfo?.name,
       id: productInfo?.id,

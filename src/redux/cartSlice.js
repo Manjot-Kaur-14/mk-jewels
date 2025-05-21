@@ -27,7 +27,6 @@ const cartSlice = createSlice({
           height: newItem.height,
           gross_weight: newItem.gross_weight,
           totalPrice: parseInt(newItem.price.toString().replace(/[^\d]/g, "")),
-          
         });
       }
     },
@@ -41,10 +40,11 @@ const cartSlice = createSlice({
       } else {
         item.quantity--;
         item.totalPrice =
-          parseInt(item.price.toString().replace(/[^\d]/g, "")) *
-          item.quantity;
+          parseInt(item.price.toString().replace(/[^\d]/g, "")) * item.quantity;
       }
     },
+
+    removeAll: () => initialState,
 
     setShowCart(state) {
       state.showCart = !state.showCart;
@@ -52,5 +52,6 @@ const cartSlice = createSlice({
   },
 });
 
-export const { addToCart, removeFromCart, setShowCart } = cartSlice.actions;
+export const { addToCart, removeFromCart, setShowCart, removeAll } =
+  cartSlice.actions;
 export default cartSlice.reducer;
