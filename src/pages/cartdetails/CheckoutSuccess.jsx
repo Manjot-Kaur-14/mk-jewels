@@ -54,7 +54,7 @@ export default function CheckoutSuccess() {
 
     <div className="checkout-success-container">
       <h1> {userName}! Your Order Confirmed!  </h1>
-      <p>Make your the Payment.</p>
+      <p>Make your Payment.</p>
       <p>If you have any questions, feel free to contact our support team.</p>
 
     </div>
