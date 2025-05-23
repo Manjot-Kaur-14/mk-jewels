@@ -53,9 +53,8 @@ export default function CheckoutSuccess() {
    
 
     <div className="checkout-success-container">
-      <h1> {userName}! Your Order Confirmed! </h1>
-      <p>Thank you for your purchase. Your order has been successfully placed.</p>
-      <p>We are currently processing your order. Once it's ready for dispatch, we'll notify you with the delivery details.</p>
+      <h1> {userName}! Your Order Confirmed!  </h1>
+      <p>Make your the Payment.</p>
       <p>If you have any questions, feel free to contact our support team.</p>
 
     </div>
